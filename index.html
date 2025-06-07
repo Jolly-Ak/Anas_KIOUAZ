@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anas KIOUAZ - Développeur</title>
+    <link rel="stylesheet" href="style.css   ">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">AK</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#education">Formation</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu" onclick="toggleMobileMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Home Section -->
+      <section id="home" class="section">
+        <div class="home-section">
+          <div class="hero-content">
+            <h1>Anas KIOUAZ</h1>
+            <p class="subtitle">Développeur & Étudiant en Informatique</p>
+            <p class="description">
+              Passionné par le développement logiciel, l'intelligence
+              artificielle et les nouvelles technologies. Actuellement en 2ème
+              année de BUT Informatique à l'IUT2 de Grenoble.
+            </p>
+            <div class="cta-buttons">
+              <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+              <a href="#contact" class="btn btn-outline">Me contacter</a>
+              <a href="https://github.com/Jolly-Ak" target="_blank" class="btn btn-outline">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section">
+        <h2 class="section-title">À propos</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Développeur en formation</h3>
+            <p>
+              Étudiant passionné de 19 ans en BUT Informatique à l'IUT2 de
+              Grenoble. Je me spécialise dans le développement logiciel,
+              l'intelligence artificielle et l'analyse de données.
+            </p>
+            <p>
+              Mon parcours m'a permis d'acquérir des compétences solides en
+              programmation, notamment en Python et Java, ainsi qu'une expertise
+              en machine learning et en développement web.
+            </p>
+            <p>
+              Toujours à la recherche de nouveaux défis techniques, j'aime
+              explorer les dernières innovations en informatique et contribuer à
+              des projets innovants.
+            </p>
+          </div>
+          <div class="contact-info">
+            <div class="contact-item">
+              <span>Âge:</span>
+              <span>19 ans</span>
+            </div>
+            <div class="contact-item">
+              <span>Localisation:</span>
+              <span>Saint-Martin-d'Hères, France</span>
+            </div>
+            <div class="contact-item">
+              <span>Études:</span>
+              <span>BUT Informatique - IUT2 Grenoble</span>
+            </div>
+            <div class="contact-item">
+              <span>Disponibilité:</span>
+              <span>Stage, Projets, Freelance</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <h2 class="section-title">Formation & Expérience</h2>
+
+        <div class="timeline-item">
+          <h3>BUT Informatique – 2ème année</h3>
+          <div class="timeline-date">2024 – 2025</div>
+          <div class="timeline-location">
+            IUT2 de Grenoble – Université Grenoble Alpes
+          </div>
+          <p>
+            Formation complète en informatique couvrant le développement
+            logiciel, les bases de données, les réseaux, et l'intelligence
+            artificielle.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Baccalauréat Scientifique – Mention Bien</h3>
+          <div class="timeline-date">2021 – 2023</div>
+          <div class="timeline-location">
+            Lycée Charles-Gabriel Pravaz, Pont-de-Beauvoisin
+          </div>
+          <p>
+            Spécialités : Mathématiques et NSI (Numérique et Sciences de
+            l'Informatique)
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Ouvrier sur chantier</h3>
+          <div class="timeline-date">2022-2023 (1 mois)</div>
+          <div class="timeline-location">Saint-Alban-de-Montbel, Savoie</div>
+          <p>
+            Expérience terrain développant les compétences en travail d'équipe,
+            rigueur et adaptabilité.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Stage en Pharmacie</h3>
+          <div class="timeline-date">2021 (1 semaine)</div>
+          <div class="timeline-location">
+            Pharmacie Bois-Windey, Pont de Beauvoisin
+          </div>
+          <p>
+            Découverte du milieu professionnel et développement des compétences
+            relationnelles.
+          </p>
+        </div>    
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <h2 class="section-title">Projets</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Classification automatique de dépêches</h3>
+              <div class="project-links">
+                <a href="https://github.com/Jolly-Ak/News-Classification-ML" target="_blank" class="project-link">
+                  GitHub 🔗
+                </a>
+                <a href="#" class="project-link">
+                  Demo 🚀
+                </a>
+              </div>
+            </div>
+            <div class="project-tech">Python • Machine Learning • TF-IDF • KNN • NLP</div>
+            <p>
+              Système de classification de textes combinant approche lexicale et
+              algorithme K-Nearest Neighbors. Optimisation de la précision via
+              enrichissement du lexique et évaluation comparative des
+              performances. Implémentation d'algorithmes de préprocessing avancés.
+            </p>
+            <div class="project-images">
+              <img src="img/ML1.png" alt="Architecture ML" class="project-image">
+              <img src="img/ML2.png" alt="Résultats" class="project-image">
+              <img src="https://via.placeholder.com/300x150/2d1b69/ffffff?text=Interface+Demo" alt="Interface" class="project-image">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Classification d'images par CNN</h3>
+              <div class="project-links">
+                <a href="https://github.com/Jolly-Ak/cnn-image-classifier" target="_blank" class="project-link">
+                  GitHub 🔗
+                </a>
+                <a href="#" class="project-link">
+                  Colab 📊
+                </a>
+              </div>
+            </div>
+            <div class="project-tech">Python • TensorFlow • Keras • Deep Learning • Computer Vision</div>
+            <p>
+              Développement d'un modèle de réseau de neurones convolutifs pour
+              la classification d'images multi-classes. Pipeline complet avec
+              prétraitement, data augmentation, entraînement, évaluation et 
+              visualisation des performances. Optimisation des hyperparamètres.
+            </p>
+            <div class="project-images">
+              <img src="img/VKD1.png" alt="CNN Architecture" class="project-image">
+              <img src="img/1745556736982.jpg" alt="Training" class="project-image">
+              <img src="https://via.placeholder.com/300x150/2d1b69/ffffff?text=Confusion+Matrix" alt="Matrix" class="project-image">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Application de Gestion JavaFX</h3>
+              <div class="project-links">
+                <a href="https://github.com/Jolly-Ak/javafx-management-app" target="_blank" class="project-link">
+                  GitHub 🔗
+                </a>
+                <a href="#" class="project-link">
+                  Docs 📖
+                </a>
+              </div>
+            </div>
+            <div class="project-tech">Java • JavaFX • MySQL • FXML • MVC</div>
+            <p>
+              Application desktop complète de gestion avec interface graphique moderne.
+              Architecture MVC, connexion base de données, gestion utilisateurs et 
+              authentification. Interface responsive avec thème sombre/clair.
+            </p>
+            <div class="project-images">
+              <img src="img/uml_megasae.png" alt="Interface" class="project-image">
+              <img src="https://via.placeholder.com/300x150/764ba2/ffffff?text=Dashboard" alt="Dashboard" class="project-image">
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Site Web E-commerce</h3>
+              <div class="project-links">
+                <a href="https://github.com/Jolly-Ak/ecommerce-website" target="_blank" class="project-link">
+                  GitHub 🔗
+                </a>
+                <a href="#" class="project-link">
+                  Live 🌐
+                </a>
+              </div>
+            </div>
+            <div class="project-tech">HTML • CSS • JavaScript • PHP • MySQL</div>
+            <p>
+              Site e-commerce responsive avec panier d'achat, système de paiement,
+              gestion des utilisateurs et interface d'administration. Design moderne
+              avec animations CSS et interactions JavaScript fluides.
+            </p>
+            <div class="project-images">
+              <img src="" alt="Homepage" class="project-image">
+              <img src="https://via.placeholder.com/300x150/764ba2/ffffff?text=Panier+Achat" alt="Cart" class="project-image">
+              <img src="https://via.placeholder.com/300x150/2d1b69/ffffff?text=Admin+Panel" alt="Admin" class="project-image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="section">
+        
+
+
+        <h2 class="section-title">Compétences</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4>Développement</h4>
+            <ul class="skill-list">
+              <li>Python, Java, JavaFX</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Programmation orientée objet (POO)</li>
+              <li>Développement web responsive</li>
+            </ul>
+          </div>
+        
+          <div class="skill-category">
+            <h4>Data Science & IA</h4>
+            <ul class="skill-list">
+              <li>Machine Learning, Deep Learning</li>
+              <li>TensorFlow, Keras</li>
+              <li>NumPy, Pandas, Matplotlib</li>
+              <li>Réseaux de neurones (CNN)</li>
+            </ul>
+          </div>
+        
+          <div class="skill-category">
+            <h4>Bases de données</h4>
+            <ul class="skill-list">
+              <li>SQL (requêtes complexes)</li>
+              <li>MySQL, PostgreSQL</li>
+              <li>Modélisation, conception schéma</li>
+              <li>Connexion avec Java/PHP</li>
+            </ul>
+          </div>
+        
+          <div class="skill-category">
+            <h4>Outils & Systèmes</h4>
+            <ul class="skill-list">
+              <li>Git, GitHub, GitLab</li>
+              <li>Linux, Windows, Ubuntu Server</li>
+              <li>Réseaux, cybersécurité (bases)</li>
+              <li>Visual Studio Code, IntelliJ, NetBeans</li>
+            </ul>
+          </div>
+        
+          <div class="skill-category">
+            <h4>Langues</h4>
+            <div class="languages-grid">
+              <div class="language-item">
+                <div class="flag">🇫🇷</div>
+                <strong>Français</strong><br />Natif
+              </div>
+              <div class="language-item">
+                <div class="flag">🇬🇧</div>
+                <strong>Anglais</strong><br />B2
+              </div>
+              <div class="language-item">
+                <div class="flag">🇸🇦</div>
+                <strong>Arabe</strong><br />A2
+              </div>
+              <div class="language-item">
+                <div class="flag">🇮🇹</div>
+                <strong>Italien</strong><br />Notions
+              </div>
+            </div>
+          </div>
+        
+          <div class="skill-category">
+            <h4>Centres d’intérêt</h4>
+            <div class="interests-list">
+              <div class="interest-item">Boxe (compétition)</div>
+              <div class="interest-item">Cuisine</div>
+              <div class="interest-item">Natation</div>
+              <div class="interest-item">Échecs</div>
+              <div class="interest-item">Callisthénie</div>
+              <div class="interest-item">Ultimate</div>
+              <div class="interest-item">League of Legends (Shaco)</div>
+            </div>
+          </div>
+        </div>
+        
