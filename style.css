@@ -195,6 +195,33 @@ nav {
   color: #fff;
 }
 
+/* Style pour le bouton CV */
+.nav-container .nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+}
+
+.nav-container .nav-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  background: linear-gradient(45deg, #764ba2, #667eea);
+}
+
+.nav-container .nav-link::after {
+  content: '📄';
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+
 /* Sections */
 .section {
   min-height: 100vh;
